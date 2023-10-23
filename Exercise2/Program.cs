@@ -108,10 +108,29 @@ Question8();
 // }
 //Question11();
 //QUESTION 12
-static void Question12()
+// static void Question12()
+// {
+//   string [] firstname
+//   string [] lastname
+//   int [] age
+//   char gender (‘m’ or ‘f’)
+// }
+
+//Class example
+// for (int i = 97; i <= 122; i++)
+// {
+//     Console.Write(Convert.ToChar(i) + " ");
+// }
+
+//Question 13
+void Question13()
 {
-  string [] firstname
-  string [] lastname
-  int [] age
-  char gender (‘m’ or ‘f’)
+    int value1 = 5;
+    int value2 = 10;
+    Console.WriteLine("Value1 " + value1 + "\n" + "Value2 " + value2);
+    int swap = value1;
+    value1 = value2;
+    value2 = swap;
+    Console.WriteLine("Value1 " + value1 + "\n" + "Value2 " + value2);
 }
+Question13();
