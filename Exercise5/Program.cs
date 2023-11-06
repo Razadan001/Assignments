@@ -1,4 +1,5 @@
 ﻿using System;
+using Humanizer;
 // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 //Question 1
@@ -89,3 +90,85 @@
 // Question4();
 
 // Question 5;
+// static void Question7()
+// {
+//     int num1, num2, num3, num4, num5;
+//     Random random = new Random();
+//     Console.Write("Input number: ");
+//     num1 = int.Parse(Console.ReadLine()!);
+//     Console.Write("Input number: ");
+//     num2 = int.Parse(Console.ReadLine()!);
+//     Console.Write("Input number: ");
+//     num3 = int.Parse(Console.ReadLine()!);
+//     Console.Write("Input number: ");
+//     num4 = int.Parse(Console.ReadLine()!);
+//     Console.Write("Input number: ");
+//     num5 = int.Parse(Console.ReadLine()!);
+//     if(num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5)
+//     {
+//         Console.WriteLine($"The biggest number is: {num1} out of {num1}, {num2}, {num3}, {num4}, {num5}");
+//     }
+//     else if(num2 > num1 && num2 > num3 && num2 > num4 && num2 > num5)
+//     {
+//         Console.WriteLine($"The biggest number is: {num2} out of {num1}, {num2}, {num3}, {num4}, {num5}");
+//     }
+//     else if(num3 > num1 && num3 > num2 && num3 > num4 && num3 > num5)
+//     {
+//         Console.WriteLine($"The biggest number is: {num3} out of {num1}, {num2}, {num3}, {num4}, {num5}");
+//     }
+//     else if(num4 > num1 && num4 > num2 && num4 > num3 && num4 > num5)
+//     {
+//         Console.WriteLine($"The biggest number is: {num4} out of {num1}, {num2}, {num3}, {num4}, {num5}");
+//     }
+//     else if(num5 > num1 && num5 > num2 && num5 > num3 && num5 > num4)
+//     {
+//         Console.WriteLine($"The biggest number is: {num5} out of {num1}, {num2}, {num3}, {num4}, {num5}");
+//     }
+//     else
+//     {
+//         Console.Write("Unexcpected number");
+//     }
+// }
+// Question7();
+//Question8
+// static void Question10()
+// {
+//     int score, mult;
+//     Console.Write("Input any number: ");
+//     score = int.Parse(Console.ReadLine()!);
+//     if (score == 1 || score == 2 || score == 3)
+//     {
+//         mult = score * 10;
+//         Console.WriteLine($"Your bonus score is: {mult}");
+//     }
+//     else if (score == 4 || score == 5 || score == 6)
+//     {
+//         mult = score * 100;
+//         Console.WriteLine($"Your bonus score is: {mult}");
+//     }
+//     else if (score == 7 || score == 8 || score == 9)
+//     {
+//         mult = score * 1000;
+//         Console.WriteLine($"Your bonus score is: {mult}");
+//     }
+//     else if (score == 0 || score > 9)
+//     {
+//         Console.WriteLine("Invalid expression");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Syntax error");
+//     }
+// }
+// Question10();
+
+//Question11
+// static void Question11()
+// {
+//     Console.Write("Input any number, let me tell you the number in words.\nInput: ");
+//     int input = int.Parse(Console.ReadLine()!);
+//     Console.WriteLine($"{input} in words is {input.ToWords()}");
+// }
+// Question11();
+
+
