@@ -2,6 +2,11 @@
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("============Primitive Types And Variables Excercise============");
 //Question 1
+// Declare several variables by selecting for each one of them the most 
+// appropriate of the types sbyte, byte, short, ushort, int, uint, long
+// and ulong in order to assign them the following values: 52,130; -115; 
+// 4825932; 97; -10000; 20000; 224; 970,700,000; 112; -44; -1,000,000; 
+// 1990; 123456789123456789.
 /*
 void Question1()
 {
@@ -14,14 +19,20 @@ void Question1()
     long Long = -1000000;
     ulong ULong = 123456789123456789;
 }
+*/
 //Question 2
-void Question2()
+/*Which of the following values can be assigned to variables of type float, 
+double and decimal: 5, -5.01, 34.567839023; 12.345; 8923.1234857;
+3456.091124875956542151256683467?*/
+/*void Question2()
 {
     float FLOAT = -5.01F;
     double DOUBLE = 8923.1234857;
     decimal Decimal = 3456.091124875956542151256683467M;
 }*/
 //Question 3
+/*Write a program, which compares correctly two real numbers with 
+accuracy at least 0.000001.*/
 /*static void Question3(double number1 , double number2)
 {
     Console.WriteLine("We are comparing two numbers. Number 1 and Number2");
@@ -123,7 +134,7 @@ Question8();
 // }
 
 //Question 13
-void Question13()
+/*void Question13()
 {
     int value1 = 5;
     int value2 = 10;
@@ -133,4 +144,4 @@ void Question13()
     value2 = swap;
     Console.WriteLine("Value1 " + value1 + "\n" + "Value2 " + value2);
 }
-Question13();
+Question13();*/
