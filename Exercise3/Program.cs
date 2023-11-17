@@ -66,3 +66,10 @@ Console.WriteLine("Hello, World!");
 //     Console.WriteLine(number * 0.17);
 // }
 // Question7();
+
+//Question 8
+static void Question8()
+{
+    
+    int a = 
+}
