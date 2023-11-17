@@ -90,6 +90,7 @@ using Humanizer;
 // Question4();
 
 // Question 5;
+<<<<<<< HEAD
 static void Question5()
 {
     Console.Write("Input a number: ");
@@ -134,6 +135,8 @@ static void Question5()
 Question5();
 
 
+=======
+>>>>>>> cfeeb6f557d0083a9b808f129f1c6888c3f7e84f
 // static void Question7()
 // {
 //     int num1, num2, num3, num4, num5;
